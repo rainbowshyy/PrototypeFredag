@@ -542,6 +542,7 @@ MonoBehaviour:
   grassLayer:
     serializedVersion: 2
     m_Bits: 512
+  combatScreen: {fileID: 1941803678}
 --- !u!95 &220073388
 Animator:
   serializedVersion: 4
@@ -7917,7 +7918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1941803679
 MonoBehaviour:
   m_ObjectHideFlags: 0

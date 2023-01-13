@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
 public class PlayerCgaracter : MonoBehaviour
@@ -13,6 +12,8 @@ public class PlayerCgaracter : MonoBehaviour
     private Vector2 input;
 
     private Animator animator;
+
+    [SerializeField] GameObject combatScreen;
 
     private void Awake()
     {
@@ -80,7 +81,7 @@ public class PlayerCgaracter : MonoBehaviour
            if (Random.Range(1, 101) <= 10)
             {
                 //open scene thingy here 
-                Debug.Log("Encountered a wild pokemon");
+                combatScreen.SetActive(true);
             }
         }
     }
