@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class PlayerCgaracter : MonoBehaviour
@@ -78,7 +79,8 @@ public class PlayerCgaracter : MonoBehaviour
         {
            if (Random.Range(1, 101) <= 10)
             {
-                Debug.Log("Encountered a wild Pokemon");
+                //open scene thingy here 
+                Debug.Log("Encountered a wild pokemon");
             }
         }
     }
